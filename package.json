@@ -1,7 +1,7 @@
 {
-    "name": "reactjs-vite-tailwind-vercel",
+    "name": "alescai",
     "version": "1.0.0",
-    "description": "ReactJS app with Vite, Tailwind",
+    "description": "ALESCAI - AI Assistant Application",
     "type": "module",
     "scripts": {
         "dev": "vite",
@@ -11,8 +11,13 @@
     },
     "dependencies": {
         "@sentry/browser": "^8.41.0",
+        "@sentry/node": "^8.54.0",
+        "@zapt/zapt-js": "^1.0.23",
+        "openai": "^4.26.0",
         "react": "^18.2.0",
-        "react-dom": "^18.2.0"
+        "react-dom": "^18.2.0",
+        "react-markdown": "^9.0.1",
+        "uuid": "^9.0.1"
     },
     "devDependencies": {
         "@vitejs/plugin-react": "^4.3.4",
